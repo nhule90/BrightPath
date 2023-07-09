@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World</h1>
+		<!-- insert hello world here -->
+
+		<img src="https://tinyurl.com/rubberducknhu">
+		<p>
+			Welcome everyone to our funny, cute, little website!
+		</p>
+		<ul>
+			<li>You are kind!</li>
+			<li>You are smart!</li>
+			<li>You are wonderful!</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<!-- <input type="submit"> -->
+			
+			<div class="col-sm-12">
+				<p>How do you hear about us?</p>
+				<!-- <label for="GoogleorFriendorOther" aria-required="true">How do you hear about us?:</label> -->
+				<!-- <span style="display: inline-block"> -->
+				<label for="Google">
+				<input class="conradio required" type="radio" name="newOrExisting" id="newPatient" value="New Patient" aria-required="true">
+				<span>Google</span>
+				</label>
+				<label for="Friends">
+				<input class="conradio required" type="radio" name="newOrExisting" id="existingPatient" value="Current Patient" aria-required="true">
+				<span>Friends</span>
+				</label>
+				<label for="Others" class="patient-radio radio-inline">
+					<input class="conradio required" type="radio" name="newOrExisting" id="existingPatient" value="Current Patient" aria-required="true">
+					<span>Others</span>
+					</label>
+				</span>
+				</div>
+			<input type="submit">
+
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
