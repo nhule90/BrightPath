@@ -1,0 +1,26 @@
+#wrapper.visible {
+    opacity: 1;
+}
+div {
+    display: block;
+}
+#wrapper, .background, .section, .section-inner {
+    display: block;
+    width: 100%;
+}
+.background{
+  /* background-image: url("https://tinyurl.com/spacezimg1");   */
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 0% 0%;
+}
+.background, .section {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+#wrapper {
+    position: relative;
+}
