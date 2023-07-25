@@ -3,3 +3,5 @@ _build
 .DS_Store
 zip_files
 *.zip
+solution
+node_modules
